@@ -186,7 +186,7 @@ def bootstrap(row):
 try:
     path = sys.argv[1]
 except IndexError as e:
-    print('\033[93m' + 'No path added\n','Add the path off the file in the terminal like this:\n python run_detection.py image_path'.format(e))
+    print('\033[93m' + 'No path added\n','Add the path off the file in the terminal like this:\n python EstimateDensity.py test.json'.format(e))
     sys.exit()
 data = []
 with open(path, 'r', encoding='utf-8') as f:
