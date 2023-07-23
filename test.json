@@ -1,0 +1,95 @@
+{
+    "version": 2,
+    "put_cargos": [],
+    "cargo_space": {
+      "id": "1111",
+      "mass": 2000,
+      "size": {
+        "width": 10,
+        "height": 10,
+        "length": 10
+      },
+      "params": {
+        "protrusion": {
+          "width": 0,
+          "length": 0
+        },
+        "indentation": {
+          "width": 0,
+          "length": 0
+        }
+      },
+      "carrying_capacity": 800000
+    },
+    "cargo_groups": [
+      {
+        "mass": 63,
+        "size": {
+          "width": 10,
+          "height": 5,
+          "length": 5
+        },
+        "sort": 1,
+        "count": 1,
+        "group_id": "11111",
+        "stacking": true,
+        "turnover": true,
+        "overhang_angle": 50,
+        "stacking_limit": 0,
+        "stacking_is_limited": false
+      },
+      {
+        "mass": 45,
+        "size": {
+          "width": 5,
+          "height": 5,
+          "length": 10
+        },
+        "sort": 2,
+        "count": 5,
+        "group_id": "22222",
+        "stacking": true,
+        "turnover": false,
+        "overhang_angle": 30,
+        "stacking_limit": 3,
+        "stacking_is_limited": true
+      },
+      {
+        "mass": 80,
+        "size": {
+          "width": 5,
+          "height": 5,
+          "length": 5
+        },
+        "sort": 3,
+        "count": 2,
+        "group_id": "33333",
+        "stacking": false,
+        "turnover": true,
+        "overhang_angle": 60,
+        "stacking_limit": 0,
+        "stacking_is_limited": false
+      },
+      {
+        "mass": 28,
+        "size": {
+          "width": 5,
+          "height": 5,
+          "length": 5
+        },
+        "sort": 21,
+        "count": 3,
+        "group_id": "212121",
+        "stacking": true,
+        "turnover": true,
+        "overhang_angle": 40,
+        "stacking_limit": 2,
+        "stacking_is_limited": true
+      }
+    ],
+    "calculation_params": {
+      "packing_side": 0,
+      "calculation_id": "11111",
+      "accounting_center_of_mass": false
+    }
+  }
