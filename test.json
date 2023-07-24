@@ -5,9 +5,9 @@
       "id": "1111",
       "mass": 2000,
       "size": {
-        "width": 10,
-        "height": 10,
-        "length": 10
+        "width": 2438,
+        "height": 2591,
+        "length": 6058
       },
       "params": {
         "protrusion": {
@@ -25,9 +25,9 @@
       {
         "mass": 63,
         "size": {
-          "width": 10,
-          "height": 5,
-          "length": 5
+          "width": 1250,
+          "height": 1900,
+          "length": 1
         },
         "sort": 1,
         "count": 1,
